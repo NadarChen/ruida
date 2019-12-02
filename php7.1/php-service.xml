@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service>
+  <id>PHP</id>
+  <name>PHP</name>
+  <description>本服务用于加载PHP服务，请确保开机启动。</description>
+  <logpath>C:\WebServer\php7.1\logs</logpath>
+  <executable>php-cgi.exe</executable>
+  <arguments>-b 127.0.0.1:9000 -c php.ini</arguments>
+  <logmode>rotate</logmode>
+</service>
